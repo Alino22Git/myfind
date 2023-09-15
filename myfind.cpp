@@ -86,7 +86,8 @@ void StringCompare(std::string entry, std::string searchingFile, bool caseInSens
     }
     else
     {
-    if (entry.find(searchingFile))
+        //Testing if find() returns a value not npos (npos is returned if no correct entry is found)
+    if (entry.find(searchingFile)!= std::string::npos)
     {
         std::cout << "<pid>: " << searchingFile << " : " << entry << "\n";
     }
