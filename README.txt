@@ -1,9 +1,7 @@
 Das Grundgerüst wurde erstellt.
 Programm funktioniert!
-Fehlende Funktionalitäten:
--sichere Parameterauswahl mittels "getopt()" sollte realtiv einfach sein
--try catch!
--Forks bzw. paralleles arbeiten
+Fehlende Aufgaben:
+-try catch
 -Dokumenation
 -Testing
 -Deliverables
